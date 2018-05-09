@@ -1,14 +1,12 @@
 import javax.swing.JOptionPane;
 
-import com.sun.swing.internal.plaf.metal.resources.metal;
-
 public class Questao04 {
 
     public static void main(String[] args) {
-    String[] tamanhoCamisa = new String[2];
+    String[] tamanhoCamisa = new String[40];
     int camisaPP=0,camisaP=0,camisaM=0,camisaG=0,camisaGG=0,camisaXG=0,camisaXGG=0;
 
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < 40; i++) {
             tamanhoCamisa[i] = JOptionPane.showInputDialog(null, 
                             "Selecione seu tamanho",
                             "Camisa",
